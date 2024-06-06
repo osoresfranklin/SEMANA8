@@ -1,0 +1,32 @@
+/*Selector Universal*/
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+h1{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo1{/*en general dara color*/
+    color: blue;
+}
+
+.parrafo2,h3{
+    color: gold;
+}
+
+p.parrafo3{/*solamente al parrafo espesifico*/
+    color: crimson;
+}
+
+#parrafo4{/*no es reutilizable*/
+    color: darkgreen;
+}
+
+pre > p{
+    font-family: Tahoma;
+}

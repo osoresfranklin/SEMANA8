@@ -1,0 +1,8 @@
+/*poner comentarios*/
+body{
+    background-color: beige;/*color de pagina desde css*/
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;/*estilo de letra desde css*/
+}
